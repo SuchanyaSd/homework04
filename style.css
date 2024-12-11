@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
+
+.container {
+    border: 1px solid rgb(228, 211, 211);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 60px 10px 60px;
+    width: 900px;
+}
+
+.head .img img {
+    width: 52px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.input {
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.input input {
+    text-align: left;
+    border: none;
+    background-color: rgba(201, 201, 201, 0.452);
+    width: 690px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.move-placeholder {
+    padding-left: 29px;
+}
+
+.i-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    gap: 120px;
+    border-top: 1px solid black;
+}
+
+.i-con i {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+}
+
+.i-con i span {
+    font-size: 20px;
+    color: black;
+}
+
+.bxs-video {
+    color: rgb(228, 102, 102);
+}
+
+.bxs-photo-album {
+    color: rgb(45, 159, 70);
+}
+
+.bxs-videos {
+    color: rgb(228, 102, 102);
+}
